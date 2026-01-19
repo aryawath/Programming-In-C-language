@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main() {
+	    int side, area;
+
+	    // prompt and input
+	    printf("Side: ");
+	    scanf("%d" , &side);
+
+	    // Calculate area
+	    area = side * side;
+
+	    // Output
+	    printf("Area of square: %d\n", area);
+
+	    return 0;
+}
